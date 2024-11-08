@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="estilos/home.css">
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        height: 100%;
+        width: 100%;
+
+        font-family: sans-serif;
+    }
+
+
+    /* Cabecalho */
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        flex-flow: row wrap;
+    }
+
+    header div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header nav > ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        list-style-type: none;
+    }
+    
+    header nav > ul > li{
+        margin: 10px;
+    }
+
+    header nav > ul > li > a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+    }
+
+    header nav > ul > li > a:hover{
+        color: skyblue;
+        transition: 0.5 ease;
+    }
+
+    /* Rodapé */
+    footer{
+        height: 200px;
+        background-color: black;
+        color: white;
+    }
+
+    footer ul{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer ul > li{
+        padding: 10px;
+        list-style-type: none;
+        border-right: 1px solid white;
+        transition: .5s ease;
+    }
+
+    footer ul > li:hover{
+        background-color: rgb(167, 154, 154);
+    }
+
+    footer ul > li > a{
+        text-decoration: none;
+        color: white;
+    }
+
+    footer ul > li > a:hover{
+        text-decoration: underline;
+    }
+
+    footer > h2{
+        text-align: center;
+        padding: 20px;
+        font-size: 0.7em;
+    }
+
+    footer > h2 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    footer > h2 a:hover{
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <header id="cab">
+        <div>
+            <h1>Doentes da Cabeça</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="https://czar-07.github.io/Personagens-DC/">Personagens</a></li>
+                <li><a href="https://cassiosilva007.github.io/HQ/index.html">HQ´s</a></li>
+                <li><a href="https://amandat0802.github.io/Dc_SeriesFilmes/">Séries/Filmes</a></li>
+                <li><a href="https://enzoribeirodasilva.github.io/noticias/">Noticias</a></li>
+                <li><a href="">Loja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div>
+            <h2 class="holtwood-one-sc-regular">Eu <span>NÃO</span> sou o Batman...</h2>
+        </div>
+    </section>
+
+    <main>
+        <!-- Fichas -->
+        <h2 class="montserrat-uniquifier">Personagens Favoritos</h2>
+        <section id="cards">   
+            <div class="ficha" id="co">
+                <img src="Imagens/co.gif" alt="">
+                <h4>Coringa</h4>
+                <button><a href="personagens.html">Ver Mais</a></button>
+            </div>
+
+            <div class="ficha" id="ar">
+                <img src="Imagens/ar.gif" alt="">
+                <h4>Harley Quinn</h4>
+                <button><a href="personagens.html">Ver Mais</a></button>
+            </div>
+            
+            <div class="ficha" id="aqu">
+                <img src="Imagens/aq.gif" alt="">
+                <h4>Aqua Man</h4>
+                <button><a href="personagens.html">Ver Mais</a></button>
+            </div>
+        </section>
+
+
+        <!-- Loja -->
+        <h2 class="montserrat-uniquifier">Itens da Loja</h2>
+        <section id="loj">
+            <div class="som">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="Imagens/caneca.webp" alt="">
+                        </td>
+
+                        <td>
+                            <h2>Caneca Mulher Maravilha 1984 Truth Love e Justice Stars</h2>
+                            <h3>R$69,90</h3>
+                            <button><a href="https://www.lojadccomics.com.br/caneca-mulher-maravilha-1984-truth-love-e-justice-stars" target="_blank">Comprar</a></button>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <h2>Camiseta Unissex Bat Carro</h2>
+                            <h3>R$ 69,90</h3>
+                            <button><a href="https://www.lojadccomics.com.br/camiseta-unissex-batman-85-the-batmobile" target="_blank">Comprar</a></button>
+                        </td>
+                        
+                        <td>
+                            <img src="Imagens/camisa.webp" alt="">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <img src="Imagens/almofada.webp" alt="">
+                        </td>
+
+                        <td>
+                            <h2>Almofada Superman Logo Superman Oficial</h2>
+                            <h3>R$ 54,80</h3>
+                            <button><a href="https://www.lojadccomics.com.br/super-herois/superman/almofada-superman-logo-superman-oficial" target="_blank">Comprar</a></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Carrossel -->
+        <h2 class="montserrat-uniquifier hcar">Alguns Quadrinhos</h2>
+    <section id="carrossel">
+        <div class="div-slider">
+            <ul class="slides-front">
+
+                
+                <input type="radio" name="radio-btn" id="img-1" checked="">
+                <li class="slide-conteiner">
+                    <div class="slide">
+                        <img src="Imagens/flash.png" alt="">
+
+                        <h2>Sem Tempo para Morrer</h2>
+                        <p>Geoff Johns</p>
+                    </div>
+
+                    <div class="nav">
+                        <label for="img-3" class="prev"><i class="bi bi-arrow-left-square"></i></label>
+                        <label for="img-2" class="next"><i class="bi bi-arrow-right-square"></i></label>
+                    </div>
+                </li>
+
+                
+                <input type="radio" name="radio-btn" id="img-2">
+                <li class="slide-conteiner">
+                    <div class="slide">
+                        <img src="Imagens/mulherM.jpeg" alt="">
+                    
+                        <h2>Mulher Maravilha</h2>
+                        <p>joëlle jones</p>
+                    </div>
+
+                    <div class="nav">
+                        <label for="img-1" class="prev"><i class="bi bi-arrow-left-square"></i></i></label>
+                        <label for="img-3" class="next"><i class="bi bi-arrow-right-square"></i></label>
+                    </div>
+                </li>
+
+
+                <input type="radio" name="radio-btn" id="img-3">
+                <li class="slide-conteiner">
+                    <div class="slide">
+                        <img src="Imagens/superM.jpg" alt="">
+
+                        <h2>O Reino Absoluto Vem</h2>
+                        <p>Mark Waid</p>
+                    </div>
+
+                    <div class="nav">
+                        <label for="img-2" class="prev"><i class="bi bi-arrow-left-square"></i> </label>
+                        <label for="img-1" class="next"><i class="bi bi-arrow-right-square"></i></label>
+                    </div>
+                </li>
+
+                <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                </li>
+            </ul>
+        </div>
+    </section> 
+
+    <section class="banner2">
+        <article id="not">
+            <div class="item">
+                <h2>Noticias</h2>
+            </div>
+
+            <div class="item">
+                <p>--"A escuridão não me assusta, quando tenho um amigo como você ao meu lado.", diz Robin após vencer a sua batalha grandiosamente contra a Anti-Heroina Hera venenosa.</p>
+                <button><a href="noticias.html">Ver Mais</a></button>
+            </div>
+
+            <div class="item">
+                <img src="Imagens/robin.webp" alt="Imagem d">
+            </div>
+        </article>
+    </section>
+
+    <section class="banner3">
+        <div>
+            <h2 class="hca">Trailers</h2>
+        </div>
+
+        <article id="tre">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ow_BHT3biQ8?si=05a46InKffQhJ1Vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5BJxyeuo6v0?si=XQkYzAmc1zQxnJvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="">Politica de Privacidade</a></li>
+            <li><a href="">Termos</a></li>
+            <li><a href="">Opções de Anúncios</a></li>
+            <li><a href="">Acessibilidades</a></li>
+            <li><a href="">Gerenciar Prefêrencias</a></li>
+        </ul>
+        <h2><a href="https://github.com/GabryelSilvaMoura?tab=repositories" target="_blank">Feito pelo: Gabryel da Silva</a></h2>
+    </footer>
+
+    <button class="botao"><a href="#cab"><i class="bi bi-arrow-bar-up"></i></a></button>
+</body>
+</html>
